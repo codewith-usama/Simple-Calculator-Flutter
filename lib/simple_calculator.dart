@@ -35,6 +35,8 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
         equationFontSize = 38;
         resultFontSize = 38;
         expression = equation;
+        expression = expression.replaceAll('×', '*');
+        expression = expression.replaceAll('÷', '/');
         try {
           Parser parser = Parser();
           Expression exp = parser.parse(expression);

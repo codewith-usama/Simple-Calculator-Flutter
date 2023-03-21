@@ -21,7 +21,7 @@ class Calculator extends StatelessWidget {
           size: 100.0,
           color: Colors.black54,
         ),
-        splashTransition: SplashTransition.rotationTransition,
+        splashTransition: SplashTransition.scaleTransition,
         nextScreen: const SimpleCalculator(),
       ),
     );
