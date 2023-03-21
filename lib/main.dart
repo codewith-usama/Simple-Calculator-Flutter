@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:calculator/simple_calculator.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 
 void main() => runApp(const Calculator());
 
@@ -14,7 +15,15 @@ class Calculator extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SimpleCalculator(),
+      home: AnimatedSplashScreen(
+        splash: const Icon(
+          Icons.calculate,
+          size: 100.0,
+          color: Colors.black54,
+        ),
+        splashTransition: SplashTransition.rotationTransition,
+        nextScreen: const SimpleCalculator(),
+      ),
     );
   }
 }
