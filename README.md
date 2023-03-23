@@ -2,15 +2,19 @@
 
 A new Flutter project.
 
-## Getting Started
+This project allowed me to learn and utilize several important concepts in app development. I wanted to share some of my key takeaways from this experience with you all.
 
-This project is a starting point for a Flutter application.
+Here are some of the highlights from my project:
 
-A few resources to get you started if this is your first Flutter project:
+- I included a splash screen to give my app a professional and polished feel right from the start.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- I used the Flutter Math Expression package to execute expressions with a context model, which allowed me to perform complex calculations with ease.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- To display the results of my calculations, I utilized tables and table rows to create an organized and easy-to-read interface.
+
+Overall, this project was a fantastic learning opportunity for me. It allowed me to apply my skills and knowledge in a practical way, while also gaining experience with new tools and techniques.
+
+# Demo
+
+
+https://user-images.githubusercontent.com/99090844/227279470-f79bed6d-bd44-4300-bea8-14fa553fc998.mp4
